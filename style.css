@@ -1,0 +1,41 @@
+.nav {
+    background: rgb(70, 70, 70);
+    width: 960px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-title {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+    width: 480px;
+    margin-left: 10px;
+}
+a:link{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 480px;
+}
+.active {
+    /* For "My Profile" */
+    color: rgb(238, 237, 237);
+}
+.btn {
+    box-shadow: 3px 3px 1px 1px black;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(31, 190, 230);
+}
+li {
+    padding: 0px;
+    list-style: none;
+}
